@@ -25,5 +25,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(viewBinderActivityIntent)
         }
 
+        binding.btnRecyclerView.setOnClickListener {
+            val recyclerViewActivityIntent = Intent(this, RecyclerViewActivity::class.java)
+            startActivity(recyclerViewActivityIntent)
+        }
+
     }
 }
