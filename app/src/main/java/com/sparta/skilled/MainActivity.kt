@@ -24,5 +24,6 @@ class MainActivity : AppCompatActivity() {
             val viewBinderActivityIntent = Intent(this, ViewBinderActivity::class.java)
             startActivity(viewBinderActivityIntent)
         }
+
     }
 }
