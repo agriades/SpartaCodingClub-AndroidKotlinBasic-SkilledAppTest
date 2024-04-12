@@ -19,5 +19,13 @@ class AdapterViewActivity : AppCompatActivity() {
             val simpleListViewActivityIntent = Intent(this, SimpleListViewActivity::class.java)
             startActivity(simpleListViewActivityIntent)
         }
+        binding.btnSimpleGridView.setOnClickListener {
+            val simpleGridViewActivityIntent = Intent(this, SimpleGridViewActivity::class.java)
+            startActivity(simpleGridViewActivityIntent)
+        }
+        binding.btnImageGridView.setOnClickListener {
+            val imageGridViewActivityIntent = Intent(this, ImageGridViewActivity::class.java)
+            startActivity(imageGridViewActivityIntent)
+        }
     }
 }
