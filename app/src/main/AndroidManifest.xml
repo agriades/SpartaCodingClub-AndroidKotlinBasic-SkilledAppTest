@@ -13,10 +13,13 @@
         android:theme="@style/Theme.SkilledAppTest"
         tools:targetApi="31" >
         <activity
+            android:name=".AdapterViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".ViewBinderActivity"
             android:exported="false" />
         <activity
-            android:name=".AdapterViewActivity"
+            android:name=".SimpleListViewActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
