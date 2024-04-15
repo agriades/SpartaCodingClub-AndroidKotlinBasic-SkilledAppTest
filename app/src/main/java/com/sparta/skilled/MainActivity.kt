@@ -30,5 +30,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(recyclerViewActivityIntent)
         }
 
+        binding.btnFragment.setOnClickListener {
+            val fragmentTestActivityIntent = Intent(this, FragmentTestActivity::class.java)
+            startActivity(fragmentTestActivityIntent)
+        }
     }
 }
